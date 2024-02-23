@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./components/navbar/Navbar";
 
 const App: React.FC = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      {/* Navbar */}
+      <Navbar />
 
-export default App
+      {/* Wrapper */}
+      <div className="wrapper">{/* Routes */}</div>
+    </div>
+  );
+};
+
+export default App;
